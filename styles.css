@@ -45,9 +45,9 @@ th, td {
   padding-left:10px;
   padding-right:10px;
 }
-.tableHead tr {
+.tableHead {
   border-bottom: 2px solid gray;
 }
-.tableBody tr {
+.tableBody {
   border-bottom:1px solid gray;
 }
