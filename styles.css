@@ -50,6 +50,7 @@ th, td {
 .tableHead {
   border-bottom: 2px solid gray;
 }
+/*why in tarnation are the borders not appearing?? why aren't the tr margins working either?? what is life*/
 .tableBody {
   border-bottom:1px solid gray;
 }
