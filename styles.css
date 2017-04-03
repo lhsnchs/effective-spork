@@ -39,7 +39,7 @@ a:hover, a:active {
 }
 table {
   width:100%;
-  font-size:12px;
+  font-size:14px;
 }
 th, td {
   text-align:left;
@@ -51,4 +51,7 @@ th, td {
 }
 .tableBody {
   border-bottom:1px solid gray;
+}
+p {
+  font-size:14px;
 }
