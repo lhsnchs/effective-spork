@@ -17,3 +17,6 @@ text-align: center;
   display: inline;
   padding-right:15px;
 }
+#events, #about {
+  padding-top:30px;
+}
