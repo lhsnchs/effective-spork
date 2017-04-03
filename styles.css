@@ -26,7 +26,6 @@ nav {
 }
 body {
   margin:0px;
-  
 }
 a {
   padding:5px;
@@ -37,4 +36,10 @@ a {
 a:hover, a:active {
   background-color:rgb(250, 56, 56);
   color: white;
+}
+table {
+  width:100%;
+}
+th, td {
+  text-align:left;
 }
