@@ -28,3 +28,12 @@ body {
   margin:0px;
   
 }
+a {
+  padding:3px;
+  background-color:white;
+  color:rgb(250, 56, 56);
+}
+a:hover, a:active {
+  background-color:rgb(250, 56, 56);
+  color: white;
+}
