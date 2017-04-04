@@ -2,9 +2,20 @@ main {
   width:100%;
   height: 65vh;
   text-align:center;
-  background-color: rgb(250, 56, 56);
+  background-image: url("images/main_background1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: white;
   padding-top:35vh;
+}
+#layer {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(250, 56, 56, 0.75);
 }
 h2 {
 text-align: center;
