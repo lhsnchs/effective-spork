@@ -1,81 +1,49 @@
-main {
-  width:100%;
-  height: 65vh;
-  text-align:center;
-  background-image: url("images/main_background1.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: white;
-  padding-top:35vh;
+.navbar-default .navbar-nav>li>a {
+  color: #777;
 }
-#layer {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color: rgba(250, 56, 56, 0.75);
+.navbar-default .navbar-brand {
+  color: #777;
+  font-weight:bold;
 }
-h2 {
-text-align: center;
+.navbar-default .navbar-nav>li>a:hover {
+  color: #777;
 }
-* {
-  font-family: 'Montserrat', sans-serif;
+.navbar-default .navbar-brand:hover {
+  color: #777;
 }
-.navList > li {
-  list-style: none;
-  display: inline;
-  padding-right:15px;
-  font-size:10px;
-}
-nav {
-  position:fixed;
-}
-#events, #about {
-  padding: 30px 10vw;
+.navbar-default {
+  border-radius: 0;
+  box-shadow: 0px -1px 10px;
+  background: white;
+  /*border-color:#ff6961;*/
 }
 body {
-  margin:0px;
+  padding-top: 50px;
 }
-a {
-  padding:5px;
-  background-color:white;
-  color:rgb(250, 56, 56);
-  transition:0.75s;
+.row-m-t {
+  margin-top: 20px;
 }
-a:hover, a:active {
-  background-color:rgb(250, 56, 56);
+.row-table-head {
+  border-bottom: 2px solid #ddd;
+  margin-bottom:10px;
+}
+.btn-xs-space {
+  margin-right: 5px;
+}
+#home-overlay {
+  color: white;
+  padding-top:5%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 25px rgba(0,0,0,0.1);
+}
+.jumbotron-clear {
+  background: transparent;
+}
+.header-jumbo {
+  background: #ff6961;
   color: white;
 }
-table {
-  width:100%;
-  font-size:14px;
-}
-th, td {
-  text-align:left;
-  padding-left:10px;
-  padding-right:10px;
-  vertical-align:top;
-}
-.tableHead {
-  border-bottom: 2px solid gray;
-}
-/*why in tarnation are the borders not appearing?? why aren't the tr margins working either?? what is life*/
-.tableBody {
-  border-bottom:1px solid gray;
-}
-p {
-  font-size:14px;
-}
-#footer {
-  width:100%;
-  color:white;
-  text-align: center;
-  padding:5px 0;
-  background-color: rgb(250, 56, 56);
-}
-#footer p {
-  font-size:10px;
-  margin:5px 0px;
+* {
+  font-family: Arial;
 }

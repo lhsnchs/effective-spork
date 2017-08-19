@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LHS NCHS</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
-  <body>
-    <nav>
-      <ul class="navList">
-        <li><a href="#home">home</a></li>
-        <li><a href="#events">events</a></li>
-        <li><a href="#about">about</a></li>
-      </ul>
-    </nav>
-    <main id="home">
-      <h1>National Chinese Honor Society</h1>
-      <p>Tuesday brunch. Room 104</p>
-      <p><a href="https://www.facebook.com/groups/641485129347387/" target="_blank">facebook group</a></p>
-    </main>
-    <div id="events">
-      <h2>Events</h2>
-      <table>
-        <tr class="tableHead">
-          <th style="width:20%; min-width:100px; max-width:200px;">Event</th>
-          <th style="width:15%; min-width:100px; max-width:100px;">Time</th>
-          <th style="min-width:250px;">Description</th>
-        </tr>
-        <tr class="tableBody">
-          <td>Food Making Social</td>
-          <td>maybe 4/21</td>
-          <td>Members cook and bring Chinese/Taiwanese food as a social and to better understand the cultural significance of different dishes. Location will likely be in Ms. Chen's room during lunch, but is tentatively scheduled.</td>
-        </tr>
-        <tr class="tableBody">
-          <td>Wow Another Event Is Here</td>
-          <td>1/01/01 1:00-1:01AM</td>
-          <td>This table might be swapped/added to a blog post format instead. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis malesuada eros. Mauris dui magna, sagittis sed est id, ultricies pellentesque leo.</td>
-        </tr>
-      </table>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Events and announcments from Lynbrook's National Chinese Honor Society">
+ <meta name="keywords" content="lhs, lhs nchs, lynbrook, lynbrook nchs, nchs, national chinese honor society, chinese honor society">
+ <meta name="author" content="Shannon Ding">
+<title>NCHS</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<style type="text/css">
+body {
+  /*background: url(images/redcrossldc2017_poster.jpg);*/
+  background-color: #ff6961;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("images/main_background.jpg");
+  /*redcrossldc2017_poster.jpg");*/
+  background-size: cover;
+  background-position: center;
+  /*30px;*/
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+</style>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand active">LHS NCHS</a>
+      </div>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav">
+          <li><a href="upcoming.html">Upcoming</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="about">
-      <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis malesuada eros. Mauris dui magna, sagittis sed est id, ultricies pellentesque leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a nisl metus. Suspendisse potenti. Phasellus in massa in nisi iaculis sagittis. Fusce quis tincidunt lacus. Curabitur elementum, leo sed ornare lobortis, nunc nisi suscipit ligula, sed rhoncus erat ante ut metus. Nam iaculis, ligula sed feugiat dignissim, quam justo feugiat nunc, quis facilisis enim nunc sit amet nisi. Suspendisse lacus sapien, porta sed diam ullamcorper, convallis egestas ex.</p>
-      <p>Contact: <a href="mailto:lynbrooknchs@gmail.com" target="_blank">lynbrooknchs@gmail.com</a></p>
+  </nav>
+  <!--navbar ends-->
+
+  <!--main screen-->
+    <div class="container" id="home-overlay">
+      <div class="jumbotron jumbotron-clear">
+      <h1><b>Lynbrook National Chinese Honor Society</b></h1>
+      <p>Tuesday brunch | Room 102</p>
+      <button class="btn btn-lg" style="margin-top: 20px; background:white;"><a href="upcoming.html">Upcoming Events</a></button>
     </div>
-    <div id="footer">
-      <p>Made with ♥ by NCHS 16-17.</p>
     </div>
-    <!--omegaderp 2017-->
-  </body>
+
+
+
+
+
+
+<!--jquery and Bootstrap javascript-->
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--made with ♥ by shannon ding sometime around late august of 2017-->
+</body>
 </html>
