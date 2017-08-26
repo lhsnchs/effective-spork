@@ -107,3 +107,15 @@ footer {
 hr {
   margin-bottom: 0px;
 }
+.spicy-background button {
+  margin-top: 5vh;
+  background:white;
+  width:100%;
+  font-size:200px;
+  font-size:10vw;
+}
+.spicy-background button:hover {
+  color: white;
+  background: url("https://i.pinimg.com/originals/ec/88/e1/ec88e14a7cd25febbcd02249e6266125.gif");
+  background-size:cover;
+}
