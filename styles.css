@@ -131,3 +131,7 @@ p,a,td,address {
 h1, h2, h3, h4, h5,h6 {
   font-family: 'PT Serif', serif;
 }
+#officers-out {
+  background: url("images/dark-triangles.png");
+  color:white;
+}
