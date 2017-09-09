@@ -134,4 +134,8 @@ h1, h2, h3, h4, h5,h6 {
 #officers-out {
   background: url("images/dark-triangles.png");
   color:white;
+  background-attachment: fixed;
+}
+#about-out {
+  background: url("images/polaroid.png");
 }
